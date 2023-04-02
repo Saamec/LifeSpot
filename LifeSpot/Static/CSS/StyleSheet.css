@@ -35,7 +35,20 @@ header {
     color: #44453f;
 }
 
-footer {
+.review-container, .review-button {
+    display: inline-block;
+    margin-top: 0.5em;
+    padding-left: 1%;
+    padding-top: 1%;
+}
+.review-text {
+    display: block;
+    margin-top: 0.5em;
+    padding-left: 1%;
+    padding-top: 1%;
+}
+
+.footer {
     position: absolute;
     bottom: 0;
     background-color: tan;
@@ -43,7 +56,7 @@ footer {
     padding-left: 1%;
 }
 
-aside {
+.aside {
     height: 100%; /* Высота в полный размер. Этот параметр можно убрать, если вы хотите выставлять высоту автоматически */
     width: 8%;
     position: absolute; /* Фиксированная позиция сайд-бара. Так он будет оставаться на месте при скроллинге */
